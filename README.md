@@ -6,6 +6,7 @@ Steps involved into developing this model
 
   1. Merge the datasets on the basis of title.
   2. Remove Na values.
-  3. Data Visualization.
-Pre-processing on data such as One Hot Encoding for categorical columns and Standardization for continuous columns.
-Diving the dataset into training and testing sets.
+  3. Fetch important features such as Genre, names of the cast, Director name, etc.
+  4. Vectorization 
+  5. Find similarity between the vectors using Cosine similarity.
+  6. Find out the movie recommendation based on the cosine similarity.
